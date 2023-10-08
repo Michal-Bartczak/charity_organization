@@ -1,24 +1,43 @@
-# Compiled class file
+# Ignoruj katalogi generowane przez narzędzia budowania i kompilacji
+/target/
+/bin/
+/build/
+
+# Ignoruj pliki kompilowane .class
 *.class
 
-# Log file
+# Ignoruj pliki wygenerowane przez IDE
+/.idea/
+/.vscode/
+
+# Ignoruj pliki konfiguracyjne
+/application.properties
+/application.yml
+
+# Ignoruj pliki dzienników (logów)
+/logs/
+
+# Ignoruj pliki tymczasowe
 *.log
+*.swp
 
-# BlueJ files
-*.ctxt
+# Ignoruj katalog docelowy (jeśli używasz Apache Maven)
+/mvnw
+/mvnw.cmd
+/.mvn/
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Ignoruj pliki dołączone przez systemy śledzenia wersji (np. Eclipse)
+.project
+.classpath
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# Ignoruj pliki dołączone przez systemy śledzenia wersji (np. IntelliJ IDEA)
+.idea/
+*.iml
+*.iws
+*.ipr
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Ignoruj pliki dołączone przez systemy śledzenia wersji (np. NetBeans)
+/nb-configuration.xml
+
+# Ignoruj pliki dołączone przez systemy śledzenia wersji (np. Visual Studio Code)
+.vscode/
